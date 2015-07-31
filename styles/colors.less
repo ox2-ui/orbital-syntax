@@ -1,0 +1,92 @@
+// Old vars -----------------------------------
+@brown:          hsl(36, 5%, 18%);      // Background
+@dark-brown:     hsl(36, 5%, 18%);      // Background
+@dark-brown:     hsl(36, 5%, 18%);      // Background
+@darker-brown:   hsl(30, 5%, 15%);      // Background Selection
+@sand:           hsl(32, 37%, 80%);     // value (numeric color) LESS
+@neutral:        hsl(  0, 0%, 79%);      // text
+@plain:          hsl(38, 12%, 74%);     // text JS
+@warm-grey:      hsl(39, 7%, 62%);      // tags HTML, property names LESS
+@ash:            hsl(36, 7%, 41%);      // punctuation LESS
+@dull-ash:       hsl(40, 6%, 31%);      // attribute names HTML, curly braces LESS
+@dark-ash:       hsl(40, 5%, 25%);      // punctuation HTML
+@plain-ash:      hsl(60, 2%, 31%);      // comments text
+@brownish:       hsl(23, 17%, 47%);     // selector: attribute LESS, "if "else" JS
+@powder:         hsl(22, 37%, 64%);     // selector: class LESS
+@mustard:        hsl(29, 48%, 57%);     // Strings JS
+@bright-mustard: hsl(27, 79%, 62%);     // tag name: template
+@carrot:         hsl(22, 91%, 59%);     // selector: id LESS, param JS
+@orangy:         hsl(34, 98%, 66%);     // Strings HTML
+@sun:            hsl(43, 100%, 65%);    // selector: tag LESS
+@faded-sun:      hsl(41, 100%, 68%);    // constants JS, 'Template.' declarations JS
+@burning-ash:    hsl(9, 44%, 50%);      // id tag HTML
+@burnt-ash:      hsl(2, 33%, 51%);      // variable LESS
+@pastel-ash:     hsl(357, 39%, 55%);    // 'this' JS
+@wine:           hsl(335, 30%, 46%);    // Template declarations JS
+@ash-wine:       hsl(319, 18%, 49%);    //
+@tree:           hsl(25, 16%, 40%);     // template ??
+@pink:           hsl(351, 100%, 68%);   // @import LESS, 'var' 'function' JS
+@active-red:     hsl(6, 97%, 55%);      // Cursor, bracket highlighter
+@bright-purple:  hsl(235, 100%, 79%);   // function LESS, methods JS
+@solid-blue:     hsl(225, 83%, 64%);    // 'new Date' JS
+@bluesh:         hsl(213, 100%, 77%);   // template name HTML, meteor methods JS, value (keyword) LESS
+@green-pastel:   hsl(78, 45%, 57%);     // numeric JS
+@green-active:   hsl(76, 57%, 62%);     //
+@forest:         hsl(123, 22%, 46%);    // '.helpers' '.events' JS
+@purple-active:  hsl(265, 58%, 62%);    //
+@meteor-red:     hsl(359, 67%, 59%);    // meteor website brand
+@comet:          hsl(212, 64%, 71%);    //
+@teal:           hsl(184, 12%, 53%);    //
+@cyano:          hsl(172, 29%, 64%);    //
+@leaves:         hsl(125, 9%, 50%);     //
+@purple-ash:     hsl(250, 9%, 50%);     // collections
+@fire:           hsl(356, 98%, 62%);    // console log 'log'
+@purple-sky:     hsl(225, 81%, 70%);    // console.log 'console' , 'HTTP.get' JS
+@deep-ocean:     hsl(207, 23%, 54%);    // jade class
+@blend-white:    hsl(0, 100%, 100%);    // jade text
+@purply:         hsl(235, 14%, 49%);    // Router
+@night-sky:      hsl(228, 88%, 67%);    // 'false' js
+
+
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+@syntax-hue:          36;
+@syntax-saturation:   5%;
+@syntax-brightness:   18%;
+
+// Base colors -----------------------------------
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   hsl(187, 47%, 55%); // <-cyan
+@hue-1:   hsl(225, 81%, 70%); // <-violet
+@hue-2:   hsl(207, 82%, 66%); // <-blue
+@hue-2:   hsl(213, 95%, 77%); // <-blue
+@hue-3:   hsl(286, 60%, 67%); // <-purple
+@hue-3:   hsl(351, 95%, 68%); // <-purple
+@hue-3-2: hsl(351, 51%, 63%); // <-purple
+@hue-4:   hsl( 29, 48%, 57%); // <-green
+@hue-4:   hsl( 29, 54%, 61%); // <-orange 1
+
+@hue-5:   hsl(355, 65%, 65%); // <-red 1
+@hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+
+@hue-6:   hsl( 29, 54%, 61%); // <-orange 1
+@hue-6:   hsl( 95, 38%, 62%); // <-green
+@hue-6-2: hsl( 39, 67%, 69%); // <-orange 2
+
+@hue-7:   hsl( 23, 17%, 47%); // <-brown
+
+@hue-8:   hsl( 39, 7%, 62%);  // <-light-brow
